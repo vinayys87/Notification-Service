@@ -150,7 +150,7 @@ def getInputs():
     sendnotification(notifyDict)
 
 def getBulkInputs():
-    #with open('C:\\Users\\Vinay.Mohan1\\PycharmProjects\\EY\\notification\\notify.json') as json_file:
+    
     bulkconfigur = ConfigParser()
     bulkconfigur.read('config.ini')
     validpath = bulkconfigur.get('bulkjsonpath', 'path')
